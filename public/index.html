@@ -1,1 +1,32 @@
-
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Projeto de avaliação com página responsiva e moderna em HTML, CSS e JavaScript." />
+    <title>Trabalho Pages</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-container">
+        <a href="#inicio" class="brand">Trabalho<span>Pages</span></a>
+        <nav class="main-nav" aria-label="Navegação principal">
+          <a href="#inicio">Início</a><a href="#sobre">Sobre</a><a href="#servicos">Serviços</a><a href="#projeto">Projeto</a><a href="#contato">Contato</a>
+        </nav>
+        <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+      </div>
+    </header>
+    <main>
+      <section id="inicio" class="hero"><div class="container hero-content"><div class="hero-copy"><p class="eyebrow">Avaliação 2</p><h1>Crie uma presença digital forte e moderna.</h1><p class="lead">Este projeto apresenta uma página institucional responsiva, com design clean, estrutura organizada e interação simples em JavaScript.</p><div class="cta-group"><a href="#projeto" class="btn btn-primary">Ver projeto</a><a href="#contato" class="btn btn-secondary">Fale comigo</a></div><ul class="feature-list"><li>Layout responsivo</li><li>Design visual atraente</li><li>Desempenho leve</li></ul></div><div class="hero-card"><div class="card-tag">Status</div><h2>Projeto em execução</h2><div class="stat-grid"><div><strong>3</strong><span>Arquivos</span></div><div><strong>100%</strong><span>Responsivo</span></div><div><strong>24/7</strong><span>Disponível</span></div></div></div></div></section>
+      <section id="sobre" class="section"><div class="container"><div class="section-heading"><p class="eyebrow">Sobre</p><h2>Uma solução simples, clara e funcional.</h2></div><div class="about-grid"><div class="about-card"><h3>Objetivo</h3><p>Entregar uma página de apresentação com foco em usabilidade, legibilidade e estética moderna para a web.</p></div><div class="about-card"><h3>Estrutura</h3><p>A página foi organizada em seções de introdução, serviços, projeto e contato para facilitar a navegação.</p></div><div class="about-card"><h3>Tecnologias</h3><p>HTML5, CSS3 e JavaScript para produzir uma experiência leve, acessível e compatível com diferentes telas.</p></div></div></div></section>
+      <section id="servicos" class="section section-alt"><div class="container"><div class="section-heading"><p class="eyebrow">Serviços</p><h2>O que foi pensado no projeto</h2></div><div class="services-grid"><article class="service-card"><span class="icon">01</span><h3>Design responsivo</h3><p>O layout se adapta a celulares, tablets e desktops de forma equilibrada.</p></article><article class="service-card"><span class="icon">02</span><h3>Conteúdo organizado</h3><p>As seções ajudam a transmitir a mensagem principal com clareza.</p></article><article class="service-card"><span class="icon">03</span><h3>Experiência interativa</h3><p>Pequenos detalhes em JavaScript tornam a página mais dinâmica e moderna.</p></article></div></div></section>
+      <section id="projeto" class="section"><div class="container project-layout"><div><p class="eyebrow">Projeto</p><h2>Estrutura pronta para publicação em GitHub Pages.</h2><p class="project-text">A página foi pensada para funcionar como um site estático simples e eficiente, sem dependências externas complexas. Isso facilita a hospedagem e a manutenção do projeto.</p></div><div class="checklist-card"><ul><li>Seção inicial com chamada principal</li><li>Cards de apresentação e diferenciais</li><li>Layout visual moderno e limpo</li><li>Menu de navegação funcional</li><li>Contato com feedback interativo</li></ul></div></div></section>
+    </main>
+    <footer id="contato" class="site-footer"><div class="container footer-content"><div><a href="#inicio" class="brand footer-brand">Trabalho<span>Pages</span></a><p>Projeto estático criado para avaliação e publicação web.</p></div><form class="contact-form" id="contactForm"><label><span>Nome</span><input type="text" name="nome" placeholder="Seu nome" required /></label><label><span>Email</span><input type="email" name="email" placeholder="seu@email.com" required /></label><button type="submit" class="btn btn-primary">Enviar</button></form></div><div class="container footer-bottom"><p>© <span id="year"></span> Trabalho Pages. Todos os direitos reservados.</p></div></footer>
+    <script src="app.js"></script>
+  </body>
+</html>
